@@ -13,7 +13,7 @@ public class Movement : MonoBehaviour {
 	}
 
 	void Update () {
-
+		
 		Rigidbody rb = GetComponent<Rigidbody> ();
 
 		var x = - Input.GetAxis("Horizontal") * Time.deltaTime * 7.0f; //movement
@@ -27,7 +27,7 @@ public class Movement : MonoBehaviour {
 		} else {
 			mspeed = 7.0f;
 		}
-
+			
 		if (Input.GetKeyDown (KeyCode.LeftControl)) {
 			transform.localScale -= new Vector3 (0, 0.5f, 0);
 		} 														//crouch
