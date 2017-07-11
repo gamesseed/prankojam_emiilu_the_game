@@ -6,11 +6,15 @@ public class Movement : MonoBehaviour {
 
 	public float mspeed = 7.0f;
 
+	private bool IsGrounded;
+
 	void Start() {
 		Cursor.visible = false; //disables the cursor
 	}
 
 	void Update () {
+
+		Rigidbody rb = GetComponent<Rigidbody> ();
 
 		var x = - Input.GetAxis("Horizontal") * Time.deltaTime * 7.0f; //movement
 		var z = - Input.GetAxis("Vertical") * Time.deltaTime * mspeed; //movement
@@ -18,14 +22,39 @@ public class Movement : MonoBehaviour {
 		transform.Translate(x, 0, 0); //movement
 		transform.Translate(0, 0, z); //movement
 
-		if (Input.GetKey (KeyCode.LeftShift)) {
+		if (Input.GetKey (KeyCode.LeftShift) && Input.GetKey (KeyCode.W)) {
 			mspeed = 13.0f;  				//sprint
 		} else {
 			mspeed = 7.0f;
 		}
 
+		if (Input.GetKeyDown (KeyCode.LeftControl)) {
+			transform.localScale -= new Vector3 (0, 0.5f, 0);
+		} 														//crouch
+		if (Input.GetKeyUp (KeyCode.LeftControl)) {
+			mspeed = 7.0f;
+			transform.localScale += new Vector3 (0, 0.5f, 0);
+		}
+		if (Input.GetKey (KeyCode.LeftControl)) {
+			mspeed = 3.0f;
+		}
+
+		if (Input.GetKeyDown (KeyCode.Space) && IsGrounded) {
+			rb.AddForce(Vector3.up * 2000);
+		}
+
 		if (Input.GetKey(KeyCode.Escape)) {
 			Application.Quit();				//quit
 		}
+	}
+
+	void OnCollisionStay (Collision collisionInfo) {
+
+		IsGrounded = true;
+	}
+
+	void OnCollisionExit (Collision collisionInfo) {
+
+		IsGrounded = false;
 	}
 }
