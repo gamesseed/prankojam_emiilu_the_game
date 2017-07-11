@@ -1,1 +1,1 @@
-# prankojam_emiilu_the_game
+# Prankojam emīlu: the game
