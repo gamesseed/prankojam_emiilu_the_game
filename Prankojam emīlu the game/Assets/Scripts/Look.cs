@@ -17,7 +17,7 @@ public class Look : MonoBehaviour {
 
 	void Update() {
 		float mouseX = Input.GetAxis ("MouseX");
-		float mouseY = - Input.GetAxis ("MouseY"); // -
+		float mouseY = - Input.GetAxis ("MouseY"); 
 
 		rotY += mouseX * mouseSensitivity * Time.deltaTime;
 		rotX += mouseY * mouseSensitivity * Time.deltaTime;
