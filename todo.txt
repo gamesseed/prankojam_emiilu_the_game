@@ -1,0 +1,3 @@
+lower the walking speed
+sprint speed = walking speed * 2
+footstep sounds
