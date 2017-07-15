@@ -14,10 +14,6 @@ public class UI : MonoBehaviour {
 
 		quit.enabled = false;
 
-		if(Input.GetKey(KeyCode.Escape)) {
-			quit.enabled = true;
-		}
-
 		if (itemName == "") {
 			itemName = "Nothing";
 		}

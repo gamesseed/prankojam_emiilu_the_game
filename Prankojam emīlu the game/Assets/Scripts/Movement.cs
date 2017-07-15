@@ -9,6 +9,8 @@ public class Movement : MonoBehaviour {
 
 	private bool IsGrounded;
 
+	public static int esc = 0;
+
 	void Start() {
 		Cursor.visible = false; //disables the cursor
 	}
@@ -46,8 +48,8 @@ public class Movement : MonoBehaviour {
 			rb.AddForce(Vector3.up * 2000);
 		}
 
-		if (Input.GetKey(KeyCode.Escape)) {
-			Application.Quit();				//quit
+		if(Input.GetKey(KeyCode.Escape)) {
+			Application.Quit ();
 		}
 	}
 
