@@ -11,10 +11,6 @@ public class Movement : MonoBehaviour {
 
 	public static int esc = 0;
 
-	void Start() {
-		Cursor.visible = false; //disables the cursor
-	}
-
 	void Update () {
 		
 		Rigidbody rb = GetComponent<Rigidbody> ();

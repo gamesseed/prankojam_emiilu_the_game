@@ -1,10 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Look : MonoBehaviour {
+
 	public float mouseSensitivity = 1000.0f;
 	public float clampAngle = 80.0f;
+
+	public Slider slider;
 
 	float rotY = 0.0f;
 	float rotX = 0.0f;
@@ -19,8 +23,8 @@ public class Look : MonoBehaviour {
 		float mouseX = Input.GetAxis ("MouseX");
 		float mouseY = - Input.GetAxis ("MouseY"); 
 
-		rotY += mouseX * mouseSensitivity * Time.deltaTime;
-		rotX += mouseY * mouseSensitivity * Time.deltaTime;
+		rotY += mouseX * slider.value * Time.deltaTime;
+		rotX += mouseY * slider.value * Time.deltaTime;
 
 		rotX = Mathf.Clamp (rotX, -clampAngle, clampAngle);
 
