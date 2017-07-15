@@ -6,13 +6,10 @@ using UnityEngine.UI;
 public class UI : MonoBehaviour {
 	
 	public Text currentObj;
-	public Text quit;
 
 	public string itemName;
 
 	void Start() {
-
-		quit.enabled = false;
 
 		if (itemName == "") {
 			itemName = "Nothing";
