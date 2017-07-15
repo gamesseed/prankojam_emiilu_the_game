@@ -5,6 +5,7 @@ using UnityEngine;
 public class Movement : MonoBehaviour {
 
 	public float mspeed = 7.0f;
+	public float sspeed = 7.0f;
 
 	private bool IsGrounded;
 
@@ -16,7 +17,7 @@ public class Movement : MonoBehaviour {
 		
 		Rigidbody rb = GetComponent<Rigidbody> ();
 
-		var x = - Input.GetAxis("Horizontal") * Time.deltaTime * 7.0f; //movement
+		var x = - Input.GetAxis("Horizontal") * Time.deltaTime * sspeed; //movement
 		var z = - Input.GetAxis("Vertical") * Time.deltaTime * mspeed; //movement
 
 		transform.Translate(x, 0, 0); //movement
@@ -33,10 +34,12 @@ public class Movement : MonoBehaviour {
 		} 														//crouch
 		if (Input.GetKeyUp (KeyCode.LeftControl)) {
 			mspeed = 7.0f;
+			sspeed = 7.0f;
 			transform.localScale += new Vector3 (0, 0.5f, 0);
 		}
 		if (Input.GetKey (KeyCode.LeftControl)) {
 			mspeed = 3.0f;
+			sspeed = 3.0f;
 		}
 
 		if (Input.GetKeyDown (KeyCode.Space) && IsGrounded) {
