@@ -13,7 +13,7 @@ public class UI : MonoBehaviour {
 
 	private string itemName;
 
-	public bool isShowing = false;
+	public bool isShowing;
 
 	public GameObject menu;
 
@@ -29,28 +29,35 @@ public class UI : MonoBehaviour {
 
 		pause.enabled = false;
 		sensitivity.enabled = false;
-		slider.enabled = false;
+
+		Debug.Log (isShowing);
 	}
 
 	void Update() {
 
-		if (Input.GetKey (KeyCode.Escape)) {
+		if (Input.GetKey(KeyCode.Escape)) {
 			Time.timeScale = 0;
 			Cursor.visible = true;
 
 			Debug.Log ("Pause");
 
-			isShowing = !isShowing;
+			isShowing = true;
 			menu.SetActive(isShowing);
+
+			pause.enabled = true;
+			sensitivity.enabled = true;
 		}
-		/*if(Input.GetKeyDown(KeyCode.Escape)) {
+		else {
 			Time.timeScale = 1;
 			Cursor.visible = false;
 
 			Debug.Log ("Unpause");
 
-			isShowing = !isShowing;
+			isShowing = false;
 			menu.SetActive(isShowing);
-		} */
+
+			pause.enabled = false;
+			sensitivity.enabled = false;
+		} 
 	}
 }
