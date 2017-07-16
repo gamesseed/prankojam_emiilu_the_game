@@ -2,10 +2,10 @@ Mono path[0] = 'C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/All versi
 Mono path[1] = 'C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/All versions/pre-alpha 0.06/0.06 pre-alpha_Data/Mono'
 Mono config path = 'C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/All versions/pre-alpha 0.06/0.06 pre-alpha_Data/Mono/etc'
 PlayerConnection initialized from C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/All versions/pre-alpha 0.06/0.06 pre-alpha_Data (debug = 0)
-PlayerConnection initialized network socket : 0.0.0.0 55315
-Multi-casting "[IP] 192.168.8.103 [Port] 55315 [Flags] 2 [Guid] 232044452 [EditorId] 658395164 [Version] 1048832 [Id] WindowsPlayer(m-pc) [Debug] 0" to [225.0.0.222:54997]...
-Started listening to [0.0.0.0:55315]
-PlayerConnection already initialized - listening to [0.0.0.0:55315]
+PlayerConnection initialized network socket : 0.0.0.0 55486
+Multi-casting "[IP] 192.168.8.103 [Port] 55486 [Flags] 2 [Guid] 2621766153 [EditorId] 658395164 [Version] 1048832 [Id] WindowsPlayer(m-pc) [Debug] 0" to [225.0.0.222:54997]...
+Started listening to [0.0.0.0:55486]
+PlayerConnection already initialized - listening to [0.0.0.0:55486]
 Initialize engine version: 5.5.1f1 (88d00a7498cd)
 GfxDevice: creating device client; threaded=1
 Direct3D:
@@ -27,13 +27,13 @@ Platform assembly: C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\All ve
 Loading C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\All versions\pre-alpha 0.06\0.06 pre-alpha_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
 Platform assembly: C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\All versions\pre-alpha 0.06\0.06 pre-alpha_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
 Loading C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\All versions\pre-alpha 0.06\0.06 pre-alpha_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
-- Completed reload, in  0.061 seconds
+- Completed reload, in  0.039 seconds
 Platform assembly: C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\All versions\pre-alpha 0.06\0.06 pre-alpha_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\All versions\pre-alpha 0.06\0.06 pre-alpha_Data\Managed\System.dll (this message is harmless)
 desktop: 1440x900 60Hz; virtual: 1440x900 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 0.933711 ms
+UnloadTime: 1.470826 ms
 Setting up 1 worker threads for Enlighten.
-  Thread -> id: 1114 -> priority: 1 
+  Thread -> id: 15ac -> priority: 1 

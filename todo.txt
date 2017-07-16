@@ -5,3 +5,5 @@ UI +
 object pickup
 pause screen +
 level design
+start screen
+emîla voice lines
