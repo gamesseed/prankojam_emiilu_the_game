@@ -201,7 +201,7 @@ Terrain:
   m_Enabled: 1
   serializedVersion: 3
   m_TerrainData: {fileID: 15600000, guid: c825c0649238b9449b99f423ae0fa12b, type: 2}
-  m_TreeDistance: 5000
+  m_TreeDistance: 2000
   m_TreeBillboardDistance: 50
   m_TreeCrossFadeLength: 5
   m_TreeMaximumFullLODCount: 50
@@ -587,7 +587,7 @@ MonoBehaviour:
   m_FillRect: {fileID: 727533901}
   m_HandleRect: {fileID: 1478301497}
   m_Direction: 0
-  m_MinValue: 600
+  m_MinValue: 200
   m_MaxValue: 1250
   m_WholeNumbers: 0
   m_Value: 1000
@@ -908,6 +908,7 @@ GameObject:
   - component: {fileID: 1740716210}
   - component: {fileID: 1740716214}
   - component: {fileID: 1740716215}
+  - component: {fileID: 1740716216}
   m_Layer: 0
   m_Name: Camera
   m_TagString: Untagged
@@ -1017,6 +1018,14 @@ MonoBehaviour:
   isShowing: 0
   menu: {fileID: 1915584586}
   button: {fileID: 1083181423}
+--- !u!45 &1740716216
+Skybox:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1740716208}
+  m_Enabled: 1
+  m_CustomSkybox: {fileID: 2100000, guid: 3777c2609a2482a48a60ef07326b3646, type: 2}
 --- !u!1 &1890634521
 GameObject:
   m_ObjectHideFlags: 0
@@ -1236,7 +1245,7 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 056c45723ce050b4d81136880ec7c46f, type: 3}
     m_FontSize: 28
     m_FontStyle: 0
     m_BestFit: 0

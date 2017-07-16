@@ -1,6 +1,7 @@
 footstep sounds
 Models added
-A new skybox
-UI
+A new skybox +
+UI +
 object pickup
-pause screen
+pause screen +
+level design

@@ -26,7 +26,7 @@ public class UI : MonoBehaviour {
 
 		Cursor.visible = false;
 
-		itemName = "Nothing";
+		itemName = "None";
 		currentObj.text = "Item: " + itemName;
 
 		pause.enabled = false;
@@ -37,6 +37,8 @@ public class UI : MonoBehaviour {
 	}
 
 	void Update() {
+
+		currentObj.text = "Item: " + itemName;
 
 		if (Input.GetKey(KeyCode.Escape)) {
 			Time.timeScale = 0;
