@@ -17,6 +17,8 @@ public class UI : MonoBehaviour {
 
 	public GameObject menu;
 
+	public Button button;
+
 	void Start() {
 
 		menu.SetActive(false);
@@ -30,7 +32,8 @@ public class UI : MonoBehaviour {
 		pause.enabled = false;
 		sensitivity.enabled = false;
 
-		Debug.Log (isShowing);
+		Button quit = button.GetComponent<Button> ();
+		quit.onClick.AddListener (quitfunc);
 	}
 
 	void Update() {
@@ -38,8 +41,6 @@ public class UI : MonoBehaviour {
 		if (Input.GetKey(KeyCode.Escape)) {
 			Time.timeScale = 0;
 			Cursor.visible = true;
-
-			//Debug.Log ("Pause");
 
 			isShowing = true;
 			menu.SetActive(isShowing);
@@ -51,13 +52,15 @@ public class UI : MonoBehaviour {
 			Time.timeScale = 1;
 			Cursor.visible = false;
 
-			//Debug.Log ("Unpause");
-
 			isShowing = false;
 			menu.SetActive(isShowing);
 
 			pause.enabled = false;
 			sensitivity.enabled = false;
 		} 
+	}
+
+	void quitfunc() {
+		Application.Quit ();
 	}
 }
