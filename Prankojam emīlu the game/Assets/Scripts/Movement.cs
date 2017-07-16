@@ -43,10 +43,6 @@ public class Movement : MonoBehaviour {
 		if (Input.GetKeyDown (KeyCode.Space) && IsGrounded) {
 			rb.AddForce(Vector3.up * 2000);
 		}
-
-		if(Input.GetKey(KeyCode.Escape)) {
-			Application.Quit ();
-		}
 	}
 
 	void OnCollisionStay (Collision collisionInfo) {

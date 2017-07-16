@@ -39,7 +39,7 @@ public class UI : MonoBehaviour {
 			Time.timeScale = 0;
 			Cursor.visible = true;
 
-			Debug.Log ("Pause");
+			//Debug.Log ("Pause");
 
 			isShowing = true;
 			menu.SetActive(isShowing);
@@ -51,7 +51,7 @@ public class UI : MonoBehaviour {
 			Time.timeScale = 1;
 			Cursor.visible = false;
 
-			Debug.Log ("Unpause");
+			//Debug.Log ("Unpause");
 
 			isShowing = false;
 			menu.SetActive(isShowing);
