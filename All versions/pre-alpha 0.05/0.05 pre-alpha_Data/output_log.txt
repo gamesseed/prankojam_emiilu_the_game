@@ -1,0 +1,1326 @@
+Mono path[0] = 'C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/All versions/pre-alpha 0.05/0.05 pre-alpha_Data/Managed'
+Mono path[1] = 'C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/All versions/pre-alpha 0.05/0.05 pre-alpha_Data/Mono'
+Mono config path = 'C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/All versions/pre-alpha 0.05/0.05 pre-alpha_Data/Mono/etc'
+PlayerConnection initialized from C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/All versions/pre-alpha 0.05/0.05 pre-alpha_Data (debug = 0)
+PlayerConnection initialized network socket : 0.0.0.0 55020
+Multi-casting "[IP] 192.168.8.103 [Port] 55020 [Flags] 2 [Guid] 3639282601 [EditorId] 658395164 [Version] 1048832 [Id] WindowsPlayer(m-pc) [Debug] 0" to [225.0.0.222:54997]...
+Started listening to [0.0.0.0:55020]
+PlayerConnection already initialized - listening to [0.0.0.0:55020]
+Initialize engine version: 5.5.1f1 (88d00a7498cd)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 6GB (ID=0x1c03)
+    Vendor:   NVIDIA
+    VRAM:     6029 MB
+    Driver:   21.21.13.7878
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\All versions\pre-alpha 0.05\0.05 pre-alpha_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\All versions\pre-alpha 0.05\0.05 pre-alpha_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\All versions\pre-alpha 0.05\0.05 pre-alpha_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\All versions\pre-alpha 0.05\0.05 pre-alpha_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\All versions\pre-alpha 0.05\0.05 pre-alpha_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\All versions\pre-alpha 0.05\0.05 pre-alpha_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\All versions\pre-alpha 0.05\0.05 pre-alpha_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\All versions\pre-alpha 0.05\0.05 pre-alpha_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\All versions\pre-alpha 0.05\0.05 pre-alpha_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\All versions\pre-alpha 0.05\0.05 pre-alpha_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+Platform assembly: C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\All versions\pre-alpha 0.05\0.05 pre-alpha_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\All versions\pre-alpha 0.05\0.05 pre-alpha_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+- Completed reload, in  0.062 seconds
+Platform assembly: C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\All versions\pre-alpha 0.05\0.05 pre-alpha_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\All versions\pre-alpha 0.05\0.05 pre-alpha_Data\Managed\System.dll (this message is harmless)
+desktop: 1440x900 60Hz; virtual: 1440x900 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 0.909704 ms
+False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Start() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:33)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 33)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 124c -> priority: 1 
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Unpause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:52)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 52)
+
+Pause
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI:Update() (at C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\Prankojam emīlu the game\Assets\Scripts\UI.cs:40)
+ 
+(Filename: C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/Prankojam emīlu the game/Assets/Scripts/UI.cs Line: 40)
+
