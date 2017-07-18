@@ -6,4 +6,4 @@ object pickup
 pause screen +
 level design
 start screen
-emîla voice lines
+emîla voice lines -- (delayed until september)
