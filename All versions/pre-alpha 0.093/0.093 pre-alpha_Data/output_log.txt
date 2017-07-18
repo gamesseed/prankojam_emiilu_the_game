@@ -33,3 +33,15 @@ Platform assembly: C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\All ve
 desktop: 1440x900 60Hz; virtual: 1440x900 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 0.923786 ms
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 2348 -> priority: 1 
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 4.593967 ms
+System memory in use before: 60.3 MB.
+System memory in use after: 60.1 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 698.
+Total: 0.499984 ms (FindLiveObjects: 0.053775 ms CreateObjectMapping: 0.020806 ms MarkObjects: 0.207740 ms  DeleteObjects: 0.216702 ms)
+

@@ -9,9 +9,11 @@ public class Movement : MonoBehaviour {
 
 	private bool IsGrounded;
 
-	public static int esc = 0;
+	void Start() {
+		StartCoroutine (freeze());
+	}
 
-	void Update () {
+	public void Update () {
 		
 		Rigidbody rb = GetComponent<Rigidbody> ();
 
@@ -42,8 +44,8 @@ public class Movement : MonoBehaviour {
 
 		if (Input.GetKeyDown (KeyCode.Space) && IsGrounded) {
 			rb.AddForce(Vector3.up * 2000);
-		}
-	}
+		} 
+	} 
 
 	void OnCollisionStay (Collision collisionInfo) {
 
@@ -53,5 +55,13 @@ public class Movement : MonoBehaviour {
 	void OnCollisionExit (Collision collisionInfo) {
 
 		IsGrounded = false;
+	}
+
+	IEnumerator freeze() { 
+		yield return new WaitForSeconds (0.1f);
+		Rigidbody rb = GetComponent<Rigidbody> ();
+		rb.freezeRotation = true;
+		yield return new WaitForSeconds (0.1f);
+		rb.freezeRotation = false;
 	}
 }
