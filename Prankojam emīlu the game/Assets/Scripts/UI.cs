@@ -31,10 +31,13 @@ public class UI : MonoBehaviour {
 	private float fps;
 	private string fpsString;
 
+	private bool showfps;
+
 	void Start() {
 
 		menu.SetActive(false);
 
+		showfps = fpsToggle.isOn;
 
 		Cursor.visible = false;
 
@@ -57,8 +60,19 @@ public class UI : MonoBehaviour {
 		Ray ray = cam.ScreenPointToRay(Input.mousePosition); 
 		RaycastHit hit;
 
+		fps = 1.0f / Time.deltaTime;
+		fpsString = fps.ToString ("F0");
+		fpsDisplay.text = fpsString;
 
 		currentObj.text = "Item: " + itemName;
+
+		showfps = fpsToggle.isOn;
+
+		if (showfps == true) {
+			fpsDisplay.enabled = true;
+		} if (showfps == false) {
+			fpsDisplay.enabled = false;
+		}
 
 		if (Input.GetKey(KeyCode.Escape)) {
 			Time.timeScale = 0;
@@ -69,6 +83,10 @@ public class UI : MonoBehaviour {
 
 			pause.enabled = true;
 			sensitivity.enabled = true;
+			currentObj.enabled = false;
+
+			fpsString = "Paused";
+			fpsDisplay.text = fpsString;
 		}
 		else {
 			Time.timeScale = 1;
@@ -80,13 +98,7 @@ public class UI : MonoBehaviour {
 			pause.enabled = false;
 			sensitivity.enabled = false;
 			pickUp.enabled = false;
-
-			if (fpsToggle.isOn) {
-				fpsDisplay.enabled = true;
-				fps = 1.0f / Time.deltaTime;
-				fpsString = fps.ToString ("F0");
-				fpsDisplay.text = fpsString;
-			}
+			currentObj.enabled = true;
 		} 
 
 		if (Physics.Raycast (ray, out hit, 10)) {
