@@ -11,8 +11,11 @@ public class UI : MonoBehaviour {
 	public Text sensitivity;
 	public Text pause;
 	public Text pickUp;
+	public Text fpsDisplay;
 
 	public Slider slider;
+
+	public Toggle fpsToggle;
 
 	private string itemName;
 
@@ -22,8 +25,11 @@ public class UI : MonoBehaviour {
 
 	public Button button;
 
-	public Transform obj_pickup; //a
-	public Transform obj_pos; //b
+	public Transform obj_pickup;
+	public Transform obj_pos;
+
+	private float fps;
+	private string fpsString;
 
 	void Start() {
 
@@ -38,6 +44,7 @@ public class UI : MonoBehaviour {
 		pause.enabled = false;
 		sensitivity.enabled = false;
 		pickUp.enabled = false;
+		fpsDisplay.enabled = false;
 
 		pickUp.text = "Pick up";
 
@@ -73,6 +80,13 @@ public class UI : MonoBehaviour {
 			pause.enabled = false;
 			sensitivity.enabled = false;
 			pickUp.enabled = false;
+
+			if (fpsToggle.isOn) {
+				fpsDisplay.enabled = true;
+				fps = 1.0f / Time.deltaTime;
+				fpsString = fps.ToString ("F0");
+				fpsDisplay.text = fpsString;
+			}
 		} 
 
 		if (Physics.Raycast (ray, out hit, 10)) {
