@@ -1,9 +1,11 @@
-footstep sounds
-Models added
+footstep sounds 
+Models added +
 A new skybox +
 UI +
-object pickup
+object pickup 
 pause screen +
-level design
-start screen
+level design +
+start screen +
+player models 
+ai 
 emîla voice lines -- (delayed until september)

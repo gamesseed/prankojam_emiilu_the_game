@@ -5,9 +5,12 @@ using UnityEngine.UI;
 
 public class UI : MonoBehaviour {
 
+	public Camera cam;
+
 	public Text currentObj;
 	public Text sensitivity;
 	public Text pause;
+	public Text pickUp;
 
 	public Slider slider;
 
@@ -18,6 +21,9 @@ public class UI : MonoBehaviour {
 	public GameObject menu;
 
 	public Button button;
+
+	public Transform obj_pickup; //a
+	public Transform obj_pos; //b
 
 	void Start() {
 
@@ -31,12 +37,19 @@ public class UI : MonoBehaviour {
 
 		pause.enabled = false;
 		sensitivity.enabled = false;
+		pickUp.enabled = false;
+
+		pickUp.text = "Pick up";
 
 		Button quit = button.GetComponent<Button> ();
 		quit.onClick.AddListener (quitfunc);
 	}
 
 	void Update() {
+
+		Ray ray = cam.ScreenPointToRay(Input.mousePosition); 
+		RaycastHit hit;
+
 
 		currentObj.text = "Item: " + itemName;
 
@@ -59,10 +72,28 @@ public class UI : MonoBehaviour {
 
 			pause.enabled = false;
 			sensitivity.enabled = false;
+			pickUp.enabled = false;
 		} 
+
+		if (Physics.Raycast (ray, out hit, 10)) {
+			if (( hit.collider.gameObject.tag == "able_to_pickup" ) ) {
+				Debug.Log ("hit something");
+				pickUp.enabled = true;
+				//obj_pickup = hit.collider.gameObject;
+
+				if (Input.GetKey(KeyCode.E)) {
+					PickUp ();
+				}
+			}
+		}
 	}
 
 	void quitfunc() {
 		Application.Quit ();
+	}
+
+	void PickUp() {
+		obj_pickup.position = obj_pos.position;
+		obj_pickup.parent = obj_pos;
 	}
 }
