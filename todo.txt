@@ -9,6 +9,6 @@ start screen +
 player models 
 ai 
 emîla voice lines -- (delayed until september)
-hide current item text when paused
-toggle fps counter on/off
-anchor to bottom left corner for the fps counter toggle
+hide current item text when paused +
+toggle fps counter on/off +
+anchor to bottom left corner for the fps counter toggle +
