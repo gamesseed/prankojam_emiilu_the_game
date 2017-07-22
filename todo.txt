@@ -12,4 +12,5 @@ emîla voice lines -- (delayed until september)
 hide current item text when paused +
 toggle fps counter on/off +
 anchor to bottom left corner for the fps counter toggle +
-add an option to go back to title screen while paused
+add an option to go back to title screen while paused +
+fix player shaking on collision

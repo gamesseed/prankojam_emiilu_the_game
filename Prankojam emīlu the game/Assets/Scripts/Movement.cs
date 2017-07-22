@@ -17,8 +17,8 @@ public class Movement : MonoBehaviour {
 		
 		Rigidbody rb = GetComponent<Rigidbody> ();
 
-		var x = - Input.GetAxis("Horizontal") * Time.deltaTime * sspeed; //movement
-		var z = - Input.GetAxis("Vertical") * Time.deltaTime * mspeed; //movement
+		float x = - Input.GetAxis("Horizontal") * Time.deltaTime * sspeed; //movement
+		float z = - Input.GetAxis("Vertical") * Time.deltaTime * mspeed; //movement
 
 		transform.Translate(x, 0, 0); //movement
 		transform.Translate(0, 0, z); //movement
