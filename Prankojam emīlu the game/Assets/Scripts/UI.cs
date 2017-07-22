@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class UI : MonoBehaviour {
 
@@ -24,6 +25,7 @@ public class UI : MonoBehaviour {
 	public GameObject menu;
 
 	public Button button;
+	public Button buttonToTitle;
 
 	public Transform obj_pickup;
 	public Transform obj_pos;
@@ -53,6 +55,8 @@ public class UI : MonoBehaviour {
 
 		Button quit = button.GetComponent<Button> ();
 		quit.onClick.AddListener (quitfunc);
+		Button toTitle = buttonToTitle.GetComponent<Button> ();
+		toTitle.onClick.AddListener (Title);
 	}
 
 	void Update() {
@@ -116,6 +120,9 @@ public class UI : MonoBehaviour {
 
 	void quitfunc() {
 		Application.Quit ();
+	}
+	void Title() {
+		SceneManager.LoadScene ("startscreen");
 	}
 
 	void PickUp() {
