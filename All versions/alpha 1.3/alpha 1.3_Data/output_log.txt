@@ -1,10 +1,10 @@
 Mono path[0] = 'C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/All versions/alpha 1.3/alpha 1.3_Data/Managed'
 Mono config path = 'C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/All versions/alpha 1.3/alpha 1.3_Data/Mono/etc'
 PlayerConnection initialized from C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/All versions/alpha 1.3/alpha 1.3_Data (debug = 0)
-PlayerConnection initialized network socket : 0.0.0.0 55264
-Multi-casting "[IP] 192.168.8.101 [Port] 55264 [Flags] 2 [Guid] 3940883821 [EditorId] 4030053715 [Version] 1048832 [Id] WindowsPlayer(m-pc) [Debug] 0" to [225.0.0.222:54997]...
-Started listening to [0.0.0.0:55264]
-PlayerConnection already initialized - listening to [0.0.0.0:55264]
+PlayerConnection initialized network socket : 0.0.0.0 55162
+Multi-casting "[IP] 192.168.8.103 [Port] 55162 [Flags] 2 [Guid] 3583957792 [EditorId] 4030053715 [Version] 1048832 [Id] WindowsPlayer(m-pc) [Debug] 0" to [225.0.0.222:54997]...
+Started listening to [0.0.0.0:55162]
+PlayerConnection already initialized - listening to [0.0.0.0:55162]
 Player data archive not found at `C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/All versions/alpha 1.3/alpha 1.3_Data/data.unity3d`, using local filesystem
 Initialize engine version: 2017.1.0f3 (472613c02cf7)
 GfxDevice: creating device client; threaded=1
@@ -29,35 +29,19 @@ Platform assembly: C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\All ve
 Loading C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\All versions\alpha 1.3\alpha 1.3_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
 Platform assembly: C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\All versions\alpha 1.3\alpha 1.3_Data\Managed\System.dll (this message is harmless)
 Platform assembly: C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\All versions\alpha 1.3\alpha 1.3_Data\Managed\System.Core.dll (this message is harmless)
-- Completed reload, in  0.114 seconds
+- Completed reload, in  0.041 seconds
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 0.900100 ms
+UnloadTime: 1.129927 ms
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 724 -> priority: 1 
-  Thread -> id: 279c -> priority: 1 
+  Thread -> id: 194c -> priority: 1 
+  Thread -> id: 658 -> priority: 1 
 Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 4.848441 ms
+UnloadTime: 5.256885 ms
 System memory in use before: 94.1 MB.
 System memory in use after: 68.1 MB.
 
 Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 870.
-Total: 2.642683 ms (FindLiveObjects: 0.041291 ms CreateObjectMapping: 0.018565 ms MarkObjects: 0.247111 ms  DeleteObjects: 2.334754 ms)
-
-Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 1.265965 ms
-System memory in use before: 168.2 MB.
-System memory in use after: 137.8 MB.
-
-Unloading 145 unused Assets to reduce memory usage. Loaded Objects now: 323.
-Total: 2.529050 ms (FindLiveObjects: 0.019845 ms CreateObjectMapping: 0.013763 ms MarkObjects: 0.150443 ms  DeleteObjects: 2.343717 ms)
-
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.548958 ms
-System memory in use before: 169.8 MB.
-System memory in use after: 143.8 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 871.
-Total: 2.839220 ms (FindLiveObjects: 0.031048 ms CreateObjectMapping: 0.018885 ms MarkObjects: 0.263436 ms  DeleteObjects: 2.524889 ms)
+Total: 2.496404 ms (FindLiveObjects: 0.054735 ms CreateObjectMapping: 0.024647 ms MarkObjects: 0.309849 ms  DeleteObjects: 2.105251 ms)
 

@@ -20,6 +20,9 @@ public class Look : MonoBehaviour {
 	}
 
 	void Update() {
+
+		Rigidbody rb = GetComponent<Rigidbody> ();
+
 		float mouseX = Input.GetAxis ("MouseX");
 		float mouseY = - Input.GetAxis ("MouseY"); 
 
@@ -30,5 +33,9 @@ public class Look : MonoBehaviour {
 
 		Quaternion localRotation = Quaternion.Euler (rotX, rotY, 0.0f);
 		transform.rotation = localRotation;
+
+		if (rb) {
+			rb.freezeRotation = true;
+		}
 	}
 }

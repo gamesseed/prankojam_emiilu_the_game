@@ -9,10 +9,6 @@ public class Movement : MonoBehaviour {
 
 	private bool IsGrounded;
 
-	void Start() {
-		StartCoroutine (freeze());
-	}
-
 	public void Update () {
 		
 		Rigidbody rb = GetComponent<Rigidbody> ();
@@ -21,7 +17,7 @@ public class Movement : MonoBehaviour {
 		float z = - Input.GetAxis("Vertical") * Time.deltaTime * mspeed; //movement
 
 		transform.Translate(x, 0, 0); //movement
-		transform.Translate(0, 0, z); //movement
+		transform.Translate(0, 0, z); //movement 
 
 		if (Input.GetKey (KeyCode.LeftShift) && Input.GetKey (KeyCode.W)) {
 			mspeed = 13.0f;  				//sprint
@@ -45,10 +41,6 @@ public class Movement : MonoBehaviour {
 		if (Input.GetKeyDown (KeyCode.Space) && IsGrounded) {
 			rb.AddForce(Vector3.up * 2000);
 		}
-
-		if (rb.IsSleeping()) {
-			StartCoroutine(freezeNoInput());
-		}
 	} 
 
 	void OnCollisionStay (Collision collisionInfo) {
@@ -61,18 +53,4 @@ public class Movement : MonoBehaviour {
 		IsGrounded = false;
 	}
 
-	IEnumerator freeze() { 
-		yield return new WaitForSeconds (0.1f);
-		Rigidbody rb = GetComponent<Rigidbody> ();
-		rb.freezeRotation = true;
-		yield return new WaitForSeconds (0.1f);
-		rb.freezeRotation = false;
-	}
-	IEnumerator freezeNoInput() {
-		Rigidbody rb = GetComponent<Rigidbody> ();
-		rb.freezeRotation = true;
-		yield return new WaitForSeconds (1.0f);
-		rb.freezeRotation = false;
-
-	}
 }
