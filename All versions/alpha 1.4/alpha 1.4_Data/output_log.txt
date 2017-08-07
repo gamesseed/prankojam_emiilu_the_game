@@ -1,0 +1,57 @@
+Mono path[0] = 'C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/All versions/alpha 1.4/alpha 1.4_Data/Managed'
+Mono config path = 'C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/All versions/alpha 1.4/alpha 1.4_Data/Mono/etc'
+PlayerConnection initialized from C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/All versions/alpha 1.4/alpha 1.4_Data (debug = 0)
+PlayerConnection initialized network socket : 0.0.0.0 55156
+Multi-casting "[IP] 192.168.8.103 [Port] 55156 [Flags] 2 [Guid] 3754464453 [EditorId] 2347547950 [Version] 1048832 [Id] WindowsPlayer(m-pc) [Debug] 0" to [225.0.0.222:54997]...
+Started listening to [0.0.0.0:55156]
+PlayerConnection already initialized - listening to [0.0.0.0:55156]
+Player data archive not found at `C:/Users/XD/Documents/GitHub/prankojam_emiilu_the_game/All versions/alpha 1.4/alpha 1.4_Data/data.unity3d`, using local filesystem
+Initialize engine version: 2017.1.0f3 (472613c02cf7)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 6GB (ID=0x1c03)
+    Vendor:   NVIDIA
+    VRAM:     6029 MB
+    Driver:   21.21.13.7878
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\All versions\alpha 1.4\alpha 1.4_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\All versions\alpha 1.4\alpha 1.4_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\All versions\alpha 1.4\alpha 1.4_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\All versions\alpha 1.4\alpha 1.4_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\All versions\alpha 1.4\alpha 1.4_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\All versions\alpha 1.4\alpha 1.4_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\All versions\alpha 1.4\alpha 1.4_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\All versions\alpha 1.4\alpha 1.4_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\All versions\alpha 1.4\alpha 1.4_Data\Managed\UnityEngine.Timeline.dll (this message is harmless)
+Loading C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\All versions\alpha 1.4\alpha 1.4_Data\Managed\UnityEngine.Timeline.dll into Unity Child Domain
+Platform assembly: C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\All versions\alpha 1.4\alpha 1.4_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\All versions\alpha 1.4\alpha 1.4_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+Platform assembly: C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\All versions\alpha 1.4\alpha 1.4_Data\Managed\TextMeshPro-1.0.55.56.0b11.dll (this message is harmless)
+Loading C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\All versions\alpha 1.4\alpha 1.4_Data\Managed\TextMeshPro-1.0.55.56.0b11.dll into Unity Child Domain
+Platform assembly: C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\All versions\alpha 1.4\alpha 1.4_Data\Managed\System.dll (this message is harmless)
+Platform assembly: C:\Users\XD\Documents\GitHub\prankojam_emiilu_the_game\All versions\alpha 1.4\alpha 1.4_Data\Managed\System.Core.dll (this message is harmless)
+- Completed reload, in  0.163 seconds
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 0.897540 ms
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 8f0 -> priority: 1 
+  Thread -> id: 1f68 -> priority: 1 
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 4.938713 ms
+System memory in use before: 91.5 MB.
+System memory in use after: 65.4 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 957.
+Total: 2.477839 ms (FindLiveObjects: 0.034890 ms CreateObjectMapping: 0.019205 ms MarkObjects: 0.248392 ms  DeleteObjects: 2.174711 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 3.512699 ms
+System memory in use before: 152.3 MB.
+System memory in use after: 121.8 MB.
+
+Unloading 146 unused Assets to reduce memory usage. Loaded Objects now: 455.
+Total: 2.655170 ms (FindLiveObjects: 0.016964 ms CreateObjectMapping: 0.019525 ms MarkObjects: 0.171569 ms  DeleteObjects: 2.445509 ms)
+
