@@ -51,6 +51,5 @@ public class Movement : MonoBehaviour {
 	void OnCollisionExit (Collision collisionInfo) {
 
 		IsGrounded = false;
-	}
-
+	} 
 }
