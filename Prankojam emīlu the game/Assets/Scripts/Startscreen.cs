@@ -10,6 +10,8 @@ public class Startscreen : MonoBehaviour {
 	public Button StartB;
 
 	void Start() {
+		Cursor.visible = true;
+
 		Button quit = QuitB.GetComponent<Button> ();
 		quit.onClick.AddListener (Quit);
 

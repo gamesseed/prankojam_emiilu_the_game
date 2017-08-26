@@ -51,6 +51,13 @@ public class UI : MonoBehaviour {
 		pickUp.enabled = false;
 		fpsDisplay.enabled = false;
 
+		button.gameObject.SetActive(false);
+		buttonToTitle.gameObject.SetActive(false);
+
+		fpsToggle.gameObject.SetActive (false);
+
+		slider.gameObject.SetActive (false);
+
 		pickUp.text = "Pick up";
 
 		Button quit = button.GetComponent<Button> ();
@@ -60,9 +67,6 @@ public class UI : MonoBehaviour {
 	}
 
 	void Update() {
-
-		Ray ray = cam.ScreenPointToRay(Input.mousePosition); 
-		RaycastHit hit;
 
 		fps = 1.0f / Time.deltaTime;
 		fpsString = fps.ToString ("F0");
@@ -89,6 +93,13 @@ public class UI : MonoBehaviour {
 			sensitivity.enabled = true;
 			currentObj.enabled = false;
 
+			button.gameObject.SetActive(true);
+			buttonToTitle.gameObject.SetActive(true);
+
+			fpsToggle.gameObject.SetActive (true);
+
+			slider.gameObject.SetActive (true);
+
 			fpsString = "Paused";
 			fpsDisplay.text = fpsString;
 		}
@@ -103,19 +114,14 @@ public class UI : MonoBehaviour {
 			sensitivity.enabled = false;
 			pickUp.enabled = false;
 			currentObj.enabled = true;
+
+			button.gameObject.SetActive(false);
+			buttonToTitle.gameObject.SetActive(false);
+
+			fpsToggle.gameObject.SetActive (false);
+
+			slider.gameObject.SetActive (false);
 		} 
-
-		if (Physics.Raycast (ray, out hit, 10)) {
-			if (( hit.collider.gameObject.tag == "able_to_pickup" ) ) {
-				Debug.Log ("hit something");
-				pickUp.enabled = true;
-				//obj_pickup = hit.collider.gameObject;
-
-				if (Input.GetKey(KeyCode.E)) {
-					PickUp ();
-				}
-			}
-		}
 	}
 
 	void quitfunc() {
