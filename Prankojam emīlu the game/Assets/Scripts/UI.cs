@@ -6,21 +6,20 @@ using UnityEngine.SceneManagement;
 
 public class UI : MonoBehaviour {
 
+	[Header("Camera")]
 	public Camera cam;
 
+	[Header("Text")]
 	public Text currentObj;
 	public Text sensitivity;
 	public Text pause;
 	public Text pickUp;
 	public Text fpsDisplay;
 
+	[Header("Misc")]
 	public Slider slider;
 
 	public Toggle fpsToggle;
-
-	private string itemName;
-
-	public bool isShowing;
 
 	public GameObject menu;
 
@@ -30,10 +29,16 @@ public class UI : MonoBehaviour {
 	public Transform obj_pickup;
 	public Transform obj_pos;
 
+	public float raycast_distance;
+
+	[Header("Booleans")]
+	public bool isShowing;
+	private bool showfps;
+
 	private float fps;
 	private string fpsString;
 
-	private bool showfps;
+	private string itemName;
 
 	void Start() {
 
@@ -67,6 +72,16 @@ public class UI : MonoBehaviour {
 	}
 
 	void Update() {
+
+		Vector3 rayOrigin = cam.ViewportToWorldPoint (new Vector3(0.5f, 0.5f, 0.0f));
+
+		RaycastHit hit;
+
+		if (Physics.Raycast (rayOrigin, cam.transform.forward, out hit, raycast_distance)) {
+			if(hit.collider.tag == "pickup") {
+				Debug.Log ("raycast hit");
+			}
+		}
 
 		fps = 1.0f / Time.deltaTime;
 		fpsString = fps.ToString ("F0");
@@ -129,6 +144,7 @@ public class UI : MonoBehaviour {
 	}
 	void Title() {
 		SceneManager.LoadScene ("startscreen");
+		Cursor.visible = true;
 	}
 
 	void PickUp() {

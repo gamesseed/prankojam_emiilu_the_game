@@ -6,10 +6,18 @@ using UnityEngine.SceneManagement;
 
 public class Startscreen : MonoBehaviour {
 
+	[Header("Buttons")]
 	public Button QuitB;
 	public Button StartB;
 
+	[Header("Music")]
+	public AudioClip[] music;
+	public AudioSource source;
+
 	void Start() {
+		int randaudio = Random.Range (0, music.Length);
+		source.PlayOneShot(music[randaudio]);
+
 		Cursor.visible = true;
 
 		Button quit = QuitB.GetComponent<Button> ();
