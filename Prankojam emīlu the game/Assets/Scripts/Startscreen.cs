@@ -6,9 +6,10 @@ using UnityEngine.SceneManagement;
 
 public class Startscreen : MonoBehaviour {
 
-	[Header("Buttons")]
+	[Header("Input")]
 	public Button QuitB;
 	public Button StartB;
+	public Toggle mute;
 
 	[Header("Music")]
 	public AudioClip[] music;
@@ -25,6 +26,14 @@ public class Startscreen : MonoBehaviour {
 
 		Button start = StartB.GetComponent<Button> ();
 		start.onClick.AddListener (StartGame);
+	}
+
+	void Update() {
+		if (mute.isOn) {
+			source.Pause ();
+		} else {
+			source.UnPause ();
+		}
 	}
 
 	void Quit() {
