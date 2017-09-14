@@ -17,19 +17,21 @@ public class UI : MonoBehaviour {
 	public Text fpsDisplay;
 
 	[Header("Misc")]
+	public GameObject phone;
+
 	public Slider slider;
 
 	public Toggle fpsToggle;
 
 	public GameObject menu;
 
-	public Button button;
-	public Button buttonToTitle;
-
-	public Transform obj_pickup;
-	public Transform obj_pos;
+	public Rigidbody rb;
 
 	public float raycast_distance;
+
+	[Header("Buttons")]
+	public Button button;
+	public Button buttonToTitle;
 
 	[Header("Booleans")]
 	public bool isShowing;
@@ -41,6 +43,9 @@ public class UI : MonoBehaviour {
 	private string itemName;
 
 	void Start() {
+		rb = GetComponent<Rigidbody>();
+
+		phone.SetActive(false);
 
 		menu.SetActive(false);
 
@@ -63,8 +68,6 @@ public class UI : MonoBehaviour {
 
 		slider.gameObject.SetActive (false);
 
-		pickUp.text = "Pick up";
-
 		Button quit = button.GetComponent<Button> ();
 		quit.onClick.AddListener (quitfunc);
 		Button toTitle = buttonToTitle.GetComponent<Button> ();
@@ -78,8 +81,18 @@ public class UI : MonoBehaviour {
 		RaycastHit hit;
 
 		if (Physics.Raycast (rayOrigin, cam.transform.forward, out hit, raycast_distance)) {
-			if(hit.collider.tag == "pickup") {
-				Debug.Log ("raycast hit");
+			if (hit.collider.tag == "pickup") {
+				pickUp.enabled = true;
+				if (Input.GetKeyDown(KeyCode.E)) {
+					phone.SetActive(true);
+					if (Input.GetMouseButtonDown(0)) {
+						rb.constraints = RigidbodyConstraints.None;		//need to assign the rigidbody to the phones rb, not player's rb
+						rb.AddForce(transform.forward * 2000.0f);		//todo
+					}
+				}
+			}
+			if (hit.collider.tag != "pickup") {
+				pickUp.enabled = false;
 			}
 		}
 
@@ -117,8 +130,11 @@ public class UI : MonoBehaviour {
 
 			fpsString = "Paused";
 			fpsDisplay.text = fpsString;
+
+
 		}
 		else {
+
 			Time.timeScale = 1;
 			Cursor.visible = false;
 
@@ -127,7 +143,6 @@ public class UI : MonoBehaviour {
 
 			pause.enabled = false;
 			sensitivity.enabled = false;
-			pickUp.enabled = false;
 			currentObj.enabled = true;
 
 			button.gameObject.SetActive(false);
@@ -142,13 +157,9 @@ public class UI : MonoBehaviour {
 	void quitfunc() {
 		Application.Quit ();
 	}
+
 	void Title() {
 		SceneManager.LoadScene ("startscreen");
 		Cursor.visible = true;
-	}
-
-	void PickUp() {
-		obj_pickup.position = obj_pos.position;
-		obj_pickup.parent = obj_pos;
 	}
 }
