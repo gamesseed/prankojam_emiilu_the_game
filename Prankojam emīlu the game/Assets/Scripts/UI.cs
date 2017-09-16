@@ -15,18 +15,13 @@ public class UI : MonoBehaviour {
 	public Text pause;
 	public Text pickUp;
 	public Text fpsDisplay;
+	public Text throwtext;
 
 	[Header("Misc")]
-	public GameObject phone;
-
 	public Slider slider;
-
 	public Toggle fpsToggle;
-
-	public GameObject menu;
-
-	public Rigidbody rb;
-
+	public GameObject phone;
+	public GameObject phoneS;
 	public float raycast_distance;
 
 	[Header("Buttons")]
@@ -34,20 +29,18 @@ public class UI : MonoBehaviour {
 	public Button buttonToTitle;
 
 	[Header("Booleans")]
-	public bool isShowing;
 	private bool showfps;
+
 
 	private float fps;
 	private string fpsString;
-
 	private string itemName;
+	private bool isThrowable = true;
 
 	void Start() {
-		rb = GetComponent<Rigidbody>();
+		phoneS.GetComponent<throwphone> ();
 
 		phone.SetActive(false);
-
-		menu.SetActive(false);
 
 		showfps = fpsToggle.isOn;
 
@@ -56,6 +49,7 @@ public class UI : MonoBehaviour {
 		itemName = "None";
 		currentObj.text = "Item: " + itemName;
 
+		throwtext.enabled = false;
 		pause.enabled = false;
 		sensitivity.enabled = false;
 		pickUp.enabled = false;
@@ -85,15 +79,18 @@ public class UI : MonoBehaviour {
 				pickUp.enabled = true;
 				if (Input.GetKeyDown(KeyCode.E)) {
 					phone.SetActive(true);
-					if (Input.GetMouseButtonDown(0)) {
-						rb.constraints = RigidbodyConstraints.None;		//need to assign the rigidbody to the phones rb, not player's rb
-						rb.AddForce(transform.forward * 2000.0f);		//todo
-					}
+					hit.transform.gameObject.SetActive(false);
+					throwtext.enabled = true;
 				}
 			}
 			if (hit.collider.tag != "pickup") {
 				pickUp.enabled = false;
 			}
+		}
+		if (Input.GetButtonDown("Throw") && phone.activeSelf && isThrowable) {
+			phoneS.GetComponent<throwphone>().Throw();	
+			isThrowable = !isThrowable;
+			throwtext.enabled = false;
 		}
 
 		fps = 1.0f / Time.deltaTime;
@@ -114,9 +111,6 @@ public class UI : MonoBehaviour {
 			Time.timeScale = 0;
 			Cursor.visible = true;
 
-			isShowing = true;
-			menu.SetActive(isShowing);
-
 			pause.enabled = true;
 			sensitivity.enabled = true;
 			currentObj.enabled = false;
@@ -134,22 +128,16 @@ public class UI : MonoBehaviour {
 
 		}
 		else {
-
 			Time.timeScale = 1;
+
 			Cursor.visible = false;
-
-			isShowing = false;
-			menu.SetActive(isShowing);
-
 			pause.enabled = false;
 			sensitivity.enabled = false;
 			currentObj.enabled = true;
 
 			button.gameObject.SetActive(false);
 			buttonToTitle.gameObject.SetActive(false);
-
 			fpsToggle.gameObject.SetActive (false);
-
 			slider.gameObject.SetActive (false);
 		} 
 	}

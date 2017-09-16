@@ -29,6 +29,8 @@ public class Startscreen : MonoBehaviour {
 	}
 
 	void Update() {
+		Cursor.visible = true;
+
 		if (mute.isOn) {
 			source.Pause ();
 		} else {
