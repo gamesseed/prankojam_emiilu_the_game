@@ -15,6 +15,8 @@ public class Startscreen : MonoBehaviour {
 	public AudioClip[] music;
 	public AudioSource source;
 
+	private bool andris;
+
 	void Start() {
 		int randaudio = Random.Range (0, music.Length);
 		source.PlayOneShot(music[randaudio]);
@@ -29,7 +31,11 @@ public class Startscreen : MonoBehaviour {
 	}
 
 	void Update() {
-		Cursor.visible = true;
+
+		while (andris) {
+			Cursor.visible = true;
+			andris = !andris;
+		}
 
 		if (mute.isOn) {
 			source.Pause ();
