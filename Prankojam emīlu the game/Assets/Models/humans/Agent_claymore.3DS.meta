@@ -37,6 +37,12 @@ ModelImporter:
     4300006: calca
     4300008: sapato
     4300010: chapeu
+    6400000: agent
+    6400002: calca
+    6400004: chapeu
+    6400006: oculos
+    6400008: sapato
+    6400010: sobretudo
   materials:
     importMaterials: 1
     materialName: 0
@@ -66,7 +72,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
