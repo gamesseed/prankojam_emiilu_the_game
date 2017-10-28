@@ -5,6 +5,6 @@ using UnityEngine;
 public class ai : MonoBehaviour {
 	public Transform player;
 	void Update() {
-		transform.LookAt (player, Vector3.up);
+		transform.LookAt (player);
 	}
 }
